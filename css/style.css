@@ -249,18 +249,15 @@ html {
 }
 
 #proyectos .articulo img {
-    width: 300px;
-    border-radius: 20px;
+    width: 325px;
+    height: 225px;
+    border-radius: 10px;
     transition: .25s;
 }
 
 #proyectos .articulo img:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
-
-/* #proyectos .articulo {
-    padding: 20px;
-} */
 
 #titulo-proyectos {
     font-size: 34px;
@@ -273,8 +270,16 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* align-items: center;
-    justify-content: center; */
+}
+
+#proyectos .articulos .articulo{
+    filter: grayscale(100%) opacity(50%);
+    transition: .45s;
+}
+
+#proyectos .articulos .articulo:hover {
+    filter: grayscale(0%) opacity(100%);
+
 }
 
 #proyectos .contenedor-proyectos .titulo-proyectos {
@@ -356,8 +361,8 @@ html {
 }
 
 #contacto #contacto-container #contact-info #logo-info a p:hover {
-    color: #9959D9;
-    transform: scale(1.05);
+    color: #9c5fd8;
+    transform: scale(1.1);
 }
 
 #contacto #contacto-container #contact-info #logo-info img {
@@ -405,7 +410,6 @@ html {
 
 #contacto #contacto-container #contact-form #formulary button {
     text-decoration: none;
-
     background-color: #9959d900;
     border: 2px solid #fff;
     border-radius: 20px;
@@ -425,7 +429,7 @@ html {
 /* Footer */
 footer {
     margin: auto;
-    padding: 100px 15px;
+    padding: 75px 15px;
     color: #ffffff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.65);
     background: url(../images/background-footer.png);
