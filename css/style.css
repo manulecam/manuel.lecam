@@ -218,7 +218,10 @@ html {
     color: #ffffff;
     margin-bottom: 15px;
     font-weight: bold;
+}
 
+#sobremi .sobremi p a {
+    color: #9959D9;
 }
 
 #logoskills {
@@ -395,16 +398,19 @@ html {
     color: white;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    text-align: center;
 }
 
 #contacto #contacto-container #contact-form #formulary textarea {
     border-radius: 5px;
+    text-align: center;
     margin-bottom: 10px;
     background-color: #fefbff98;
     border-color: rgba(255, 255, 0, 0);
     color: white;
     font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    font-size: 13px;
+    text-shadow: 1.5px 1.5px 4px rgba(0, 0, 0, 1);
 }
 
 
