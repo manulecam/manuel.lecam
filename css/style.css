@@ -46,6 +46,10 @@ html {
     padding: 10px 20px;
 }
 
+#inicio .contenido header .contenido-header .seleccionado{
+    color: #9959D9;
+}
+
 #inicio .contenido header .contenido-header h1 a {
     text-align: center;
     text-decoration: none;
@@ -469,6 +473,18 @@ footer img:hover{
 
 /* Seccion queries */
 @media screen and (max-width:800px) {
+    #inicio .contenido .presentacion .bienvenida{
+        font-size: 20px;
+    }
+
+    #inicio .contenido .presentacion h2{
+        font-size: 65px;
+    }
+
+    #inicio .contenido .presentacion .descripcion{
+        font-size: 15px;
+    }
+
     nav {
         display: none;
     }
@@ -511,6 +527,10 @@ footer img:hover{
         padding: 0;
         padding-top: 40px;
         padding-bottom: 20px;
+    }
+
+    #colorsobremi #sobremi .sobremi h2 {
+        font-size: 30px;
     }
 
     #colorsobremi #sobremi .sobremi .titulo-seccion {
