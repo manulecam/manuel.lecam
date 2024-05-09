@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -36,15 +36,15 @@
                     </nav>
 
                     <!-- Ícono del menu responsive -->
-                    <div id="icono-nav">
+                    <div id="icono-nav" onclick="responsiveMenu()">
                         <i class="fa-solid fa-bars"></i>
                     </div>
                 </div>
             </header>
 
             <div class="presentacion">
-                <p class="bienvenida">Hello, I'm <span>Manuel</span>!</p>
-                <h2>Backend Developer</h2>
+                <p class="bienvenida"><span>Backend</span> Developer</p>
+                <h2>Hello, I'm <span>Manuel</span>!</h2>
                 <p class="descripcion">Welcome to my personal portfolio </br>Made by <span>HTML, CSS</span> & <span>JS</span></p>
                 <a id="botoncv" href="./docs/profile.pdf" download>Download CV</a>
             </div>
@@ -137,6 +137,8 @@
         <a href="index.html"><img src="./images/mlogo.png" alt=""></a>
         <p>mlecam™ - 2024</p>
     </footer>
+
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

@@ -105,9 +105,12 @@ html {
 
 #inicio .contenido .presentacion h2 {
     font-size: 75px;
-    color: #9959D9;
+    color: #ffffff;
     margin-bottom: 15px;
     text-align: center;
+}
+#inicio .contenido .presentacion h2 span{
+    color: #9959D9;
 }
 
 #inicio .contenido .presentacion .descripcion {
@@ -172,7 +175,7 @@ html {
 #sobremi .contenedor-foto img {
     padding: 2px;
     max-width: 275px;
-    border-radius: 20px;
+    border-radius: 15px;
     background-color: #9959D9;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
     transition: .4s;
@@ -461,4 +464,76 @@ footer img{
 footer img:hover{
     filter: opacity(100%);
     transform: scale(1.1);
+}
+
+
+/* Seccion queries */
+@media screen and (max-width:800px) {
+    nav {
+        display: none;
+    }
+
+    #inicio .contenido .presentacion {
+        text-align: center;
+    }
+
+    nav.responsive {
+        display: block;
+        background-color: #1f1727d3;
+        text-shadow: 2px 2px 4px black;
+        width: 100%;
+        position: absolute;
+        top: 48px;
+        left: 0;
+        padding: 10px 0;
+    }
+
+    nav.responsive ul{
+        display: block !important;
+        text-align: center;
+    }
+
+    nav.responsive ul li{
+        margin: 5px 0;
+    }
+    #icono-nav{
+        display: block;
+        transition: .15s;
+    }
+    #icono-nav:hover{
+        color: #9959D9;
+    }
+
+    #colorsobremi #sobremi {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    #colorsobremi #sobremi .sobremi .titulo-seccion {
+        margin-top: 20px;
+    }
+
+    #colorsobremi #sobremi .contenedor-foto {
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    #proyectos .contenedor-proyectos .articulos{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #proyectos .contenedor-proyectos .articulos .articulo {
+        padding: 10px 0;
+    }
+
+    #contacto #contacto-container {
+        flex-wrap: wrap;
+    }
+
+    
 }
