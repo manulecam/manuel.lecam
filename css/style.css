@@ -199,9 +199,11 @@ html {
 }
 
 #sobremi .sobremi .titulo-seccion {
-    font-size: 25px;
+    font-size: 35px;
     text-transform: uppercase;
     color: #fefbff;
+    padding-bottom: 10px;
+    letter-spacing: 5px;
 }
 
 #sobremi .sobremi h2 {
@@ -241,6 +243,27 @@ html {
     transform: scale(1.15);
 }
 
+#botoncvcontacto {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 25px;
+    padding: 15px 25px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #ffffff;
+    border-color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .3s;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+#botoncvcontacto:hover {
+    background-color: #9959D9;
+    color: #fff;
+    transform: scale(1.1);
+}
+
 /* SECCIÓN PROYECTOS */
 #proyectos {
     background: url("../images/background-projects.png");
@@ -269,11 +292,11 @@ html {
     transform: scale(1.2);
 }
 
-#titulo-proyectos {
+#proyectos .contenedor-proyectos .titulo-proyectos {
     font-size: 34px;
     font-weight: bold;
     margin: 15px 0;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
 }
 
 #proyectos .articulos {
@@ -324,7 +347,7 @@ html {
     font-size: 35px;
     font-weight: bolder;
     margin: 15px;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
 }
 
 #contacto span {
@@ -539,6 +562,7 @@ footer img:hover{
         padding: 0;
         padding-top: 40px;
         padding-bottom: 20px;
+        padding-bottom: 75px;
     }
 
     #colorsobremi #sobremi .sobremi h2 {
