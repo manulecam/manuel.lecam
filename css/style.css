@@ -243,7 +243,7 @@ html {
     transform: scale(1.15);
 }
 
-#botoncvcontacto {
+#colorsobremi #sobremi .sobremi #botoncvcontacto {
     text-decoration: none;
     display: inline-block;
     margin-top: 25px;
@@ -258,7 +258,7 @@ html {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
-#botoncvcontacto:hover {
+#colorsobremi #sobremi .sobremi #botoncvcontacto:hover {
     background-color: #9959D9;
     color: #fff;
     transform: scale(1.1);
