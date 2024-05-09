@@ -10,7 +10,7 @@ function seleccionar(link) {
     x.className = "";
 
 }
-
+//asd
 function responsiveMenu() {
     var x=document.getElementById("nav");
     if(x.className===""){
